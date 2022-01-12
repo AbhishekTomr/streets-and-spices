@@ -5,6 +5,7 @@
   /* border: 1px solid red; */
   font-family: monospace;
 }
-body{
+body,html{
   background-color: #a9927d;
+  position: relative;
 }
