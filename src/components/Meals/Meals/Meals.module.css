@@ -1,0 +1,19 @@
+.meals-wrap{
+    width: 70vw;
+    position: relative;
+    bottom: 15vh;
+    height: auto;
+    left: 15vw;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+@media all and (max-width:800px) {
+    .meals-wrap{
+        width: 95vw;
+        left: 2.5vw;
+
+    }
+}

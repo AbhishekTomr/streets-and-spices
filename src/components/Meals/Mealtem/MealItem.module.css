@@ -1,0 +1,49 @@
+.meal-item-wrap
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin: 10px auto;
+    width: 90%;
+
+}
+
+.Mitem{
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 3vw;
+    text-align: justify;
+}
+.meal-name{
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: .5px;
+    margin-bottom: 2px;
+}
+.meal-des{
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+}
+.meal-cost{
+    font-size: 1.3rem;
+    color: #302415;
+    font-weight: bold;
+}
+@media all and (max-width:700px){
+    .Mitem{
+        justify-content: space-between;
+    }
+    .meal-des{
+        font-size: 1rem;
+        font-weight: bold;
+        word-spacing: -3px;
+    }
+    
+}

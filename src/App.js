@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
+import Cart from './components/Cart/Cart/Cart';
+import Header from './components/Layout/Hearder/Header';
+import Meals from './components/Meals/Meals/Meals';
+import Overlay from './components/UI/Overlay/Overlay';
+import CartProvider from './store/CartProvider';
+
 
 function App() {
+  let [cartStatus,changeCartStatus] = useState(false);
+  let changeCart = () => {
+      changeCartStatus(function(previousState){
+        return(!previousState);
+      });
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+    {cartStatus && ReactDOM.createPortal((<Overlay><Cart changeCart={changeCart}/></Overlay>),document.getElementById('overlay-item'))};
+    <Header changeCart={changeCart}/>
+    <main>
+    <Meals/>
+    </main>
+    </CartProvider>
   );
 }
 

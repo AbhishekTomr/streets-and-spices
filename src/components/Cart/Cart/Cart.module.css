@@ -1,0 +1,47 @@
+.model{
+    width: 50vw;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+    letter-spacing: .5px;
+    margin-top: 20vh;
+    border-radius: 5px;
+}
+h2{
+    font-size: 2.1rem;
+    text-align: justify;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: .7px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.cart-items{
+    background-color: #a9927d30;
+    max-height: 250px;
+    overflow: scroll;
+}
+.total{
+    align-self: flex-end;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px dashed black;
+}
+.btns{
+    align-self: flex-end;
+    padding-right: 0;
+}
+@media all and (max-width:1000px){
+    .model{
+        width: 70vw;
+    }
+}
+@media all and (max-width:600px){
+    .model{
+        width: 90vw;
+    }
+}

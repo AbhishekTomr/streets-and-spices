@@ -1,0 +1,18 @@
+.input-num{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #49111c;
+    outline: 1px solid #49111c;
+}
+@media all and (max-width:700px){
+    .input-num{
+        width: 30px;
+        height: 25px;
+    }
+}
