@@ -37,7 +37,7 @@ let cartReducer = (currentState,action) =>{
         })
         let updatedCartItems;
         let updatedTotalAmt = parseInt(currentState.totalAmt) - (parseInt(action.item.cost));
-        if(action.item.numOf===1)
+        if(action.item.numOf===1 && itemPresent !== -1)
         {
             currentState.item.splice(itemPresent,1);
             updatedCartItems = [...currentState.item];        

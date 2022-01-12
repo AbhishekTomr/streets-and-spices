@@ -75,7 +75,8 @@
         width: 20px;
     }
     .cost-add,.cost-remove{
-        font-size: 1rem;
+        font-size: 2.1rem;
+        font-weight: bold;
         margin: 3px;
     }
     .cost-remove{

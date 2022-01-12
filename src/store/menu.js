@@ -39,14 +39,14 @@ let IndianMeals = [
 let ChinesenMeals = [
     {
         id: 201,
-        mealName : 'Peking Roasted Duck',
+        mealName : 'Roasted Duck',
         numOf : 0,
         des : 'Peking duck is savored for its thin and crispy skin. Sliced Peking duck is often eaten with pancakes, sweet bean sauce, or soy sauce with mashed garlic. ',
         cost : 150
     },
     {
         id: 202,
-        mealName : 'Sweet and Sour Pork',
+        mealName : 'Sweet Pork',
         numOf : 0,
         des : 'Sweet and sour pork (糖醋里脊 tángcù lǐjǐ) has a bright orange-red color, and a delicious sweet and sour taste.',
         cost : 180
@@ -77,7 +77,7 @@ let ChinesenMeals = [
 let ItalianMeals = [
     {
         id: 301,
-        mealName : 'Caprese Salad with Pesto Sauce',
+        mealName : 'Caprese Salad',
         numOf : 0,
         des : 'combination of juicy tomatoes and mozzarella cheese salad topped with freshly made pesto sauce',
         cost : 150
@@ -114,7 +114,7 @@ let ItalianMeals = [
 let AmericanMeals = [
     {
         id: 401,
-        mealName : 'Buffalo Chicken Wings',
+        mealName : 'Chicken Wings',
         numOf : 0,
         des : 'fried chicken wings doused in a cayenne-vinegar hot sauce (buffalo sauce) are ubiquitous bar snacks',
         cost : 150
@@ -158,7 +158,7 @@ let JapaneseMeals = [
     },
     {
         id: 502,
-        mealName : 'Buta-No-Shogayaki (Ginger Pork)',
+        mealName : 'Ginger Pork',
         numOf : 0,
         des : 'prepared by grilling thin slices of pork dressed with a delicate sauce of mirin, soy sauce, sake (Japanese rice wine), granola oil mixed with sliced onions, and ginger.',
         cost : 180
@@ -246,14 +246,14 @@ let DesertMeals = [
     },
     {
         id:704,
-        mealName : 'Vanila Ice-cream',
+        mealName : 'Ice-cream',
         numOf : 0,
         des : 'Two scoops of chilled vanila ice-cream at your door steps',
         cost : 135
     },
     {
         id:705,
-        mealName : 'Gajar Ka Halwa',
+        mealName : 'Gajar Halwa',
         numOf : 0,
         des : 'Saffron, golden raisins, almonds, cashews, clarified butter',
         cost : 120

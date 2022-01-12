@@ -19,7 +19,7 @@ let AddToCartButton = (props) => {
     }
     return(
         <Fragment>
-        <Input data = { {type:'number', min:'0', max: '5', placeholder:'0',value: inpVal,onChange :changeVal}} ref={inRef} />
+        <Input data = { {type:'number', min:'0', max: '5', placeholder:'0',value:inpVal,onChange :changeVal}} ref={inRef} />
         <Button data = {{type:'button', onClick: addToCart}}>{txt}</Button>
         </Fragment>
         )    

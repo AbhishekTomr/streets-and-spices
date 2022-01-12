@@ -11,7 +11,7 @@ let Header = (props) => {
         <CartButton changeCart = {props.changeCart}>Cart</CartButton>
         </header>
         <aside className={style['main-img']}>
-        <img src={mainimage}/>
+        <img src={mainimage} alt='food image'/>
         </aside>
         </Fragment>
     )

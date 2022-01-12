@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    z-index: 10;
+    z-index: 5;
 }
 .menu-item{
     width: 10vw;
@@ -21,6 +21,7 @@
     border-radius: 5px;
     border: 2px solid whitesmoke;
     font-weight: bold;
+    min-width: 95px
 }
 .menu-item:hover{
     background-color: whitesmoke;
@@ -31,14 +32,13 @@
 @media all and (max-width: 900px) {
     .menu-item{
         font-size: 1.3rem;
-
     }
 
 }
 @media all and (max-width: 700px) {
     .menu{
         position: absolute;
-        top: 20vh;
+        top: 15vh;
         width: 100vw;
         flex-flow: row nowrap;
         padding: 0 1vw;
@@ -47,6 +47,7 @@
         font-size: 1rem;
         padding: 3px;
         flex-grow: 1;
+        min-width: unset;
     }
 
 }
