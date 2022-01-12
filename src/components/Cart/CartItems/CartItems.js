@@ -3,7 +3,6 @@ import styles from './CartItems.module.css';
 let CartItems = (props) => {
 
     let removeItems=()=>{
-        console.log('i am running');
         props.removeItem(props.item);
     }
     let addItems = ()=>{

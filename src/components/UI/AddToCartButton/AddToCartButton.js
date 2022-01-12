@@ -5,7 +5,7 @@ import Button from '../Button/Button.js';
 
 let AddToCartButton = (props) => {
     let txt = '+ Add';
-    let [inpVal,changeInpVal] = useState(0);
+    let [inpVal,changeInpVal] = useState();
     let changeVal = (event) => {changeInpVal(event.target.value)}
     let inRef = useRef();
     let addToCart = ()=>{
