@@ -1,8 +1,17 @@
+.header-wrap{
+    height: auto;
+    background-image: url('../../../assets/meals.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 .main-header{
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: #49111c;
+    background-color: transparent;
+    background-color:	rgba(73, 17, 28,.8);
     position: fixed;
     top: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -19,14 +28,7 @@
     letter-spacing: .5px;
     color: #f2f4f3;
 }
-.main-img{
-    width: 100%;
-}
-.main-img>img{
-    width: 100%;
-    height: 60vh;
-    background-size: cover;
-}
+
 
 @media all and (max-width:700px) {
     .main-header{

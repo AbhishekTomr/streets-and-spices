@@ -1,5 +1,4 @@
 import AvailableMeals from "../AvailableMeals/AvailableMeals";
-import MealsSummary from "../MealsSummary/MealsSummary";
 import styles from './Meals.module.css';
 import MealsMenu from '../MealsMenu/MealsMenu'
 import { Fragment, useState } from "react";
@@ -14,7 +13,6 @@ let Meals = () => {
         <Fragment>
         <MealsMenu data = {Menu} changeMenu = {changeMenu}/>
         <div className={styles['meals-wrap']}>
-        <MealsSummary/>
         <AvailableMeals data = {Menu[currentMenu].meals}/>
         </div>
         </Fragment>
