@@ -1,14 +1,42 @@
 {
   "files": {
-    "main.css": "/streets-and-spices/static/css/main.2125e894.css",
-    "main.js": "/streets-and-spices/static/js/main.88ec604f.js",
+    "main.css": "/streets-and-spices/static/css/main.dda416f2.css",
+    "main.js": "/streets-and-spices/static/js/main.0fc06e25.js",
+    "static/media/meal205.jpeg": "/streets-and-spices/static/media/meal205.8672b0b89dc22457338e.jpeg",
     "static/media/meals.jpg": "/streets-and-spices/static/media/meals.dcb2433e83dbbf4bcce6.jpg",
+    "static/media/meal403.jpeg": "/streets-and-spices/static/media/meal403.82be66c962ca57ac62c3.jpeg",
+    "static/media/meal105.jpeg": "/streets-and-spices/static/media/meal105.f7aa2aee31df5cfb47a7.jpeg",
+    "static/media/meal702.jpeg": "/streets-and-spices/static/media/meal702.211dfe1140f1b4bad183.jpeg",
+    "static/media/meal103.jpeg": "/streets-and-spices/static/media/meal103.bf152c567a7826d28e90.jpeg",
+    "static/media/meal203.jpeg": "/streets-and-spices/static/media/meal203.fac8d76a8cd7391320d4.jpeg",
+    "static/media/meal305.jpeg": "/streets-and-spices/static/media/meal305.0b76c04505e78d05fb61.jpeg",
+    "static/media/meal201.jpeg": "/streets-and-spices/static/media/meal201.51432a658821022c7bf3.jpeg",
+    "static/media/meal404.jpeg": "/streets-and-spices/static/media/meal404.bdc746c0c6b54c19b4bf.jpeg",
+    "static/media/meal104.jpeg": "/streets-and-spices/static/media/meal104.0c66d68c8afbba3d7dda.jpeg",
+    "static/media/meal605.jpeg": "/streets-and-spices/static/media/meal605.21e877179dc50c47b40d.jpeg",
+    "static/media/meal101.jpeg": "/streets-and-spices/static/media/meal101.d67faf0303cf1f3b1a86.jpeg",
+    "static/media/meal504.jpeg": "/streets-and-spices/static/media/meal504.fb8205db80333a4b952b.jpeg",
+    "static/media/meal705.jpeg": "/streets-and-spices/static/media/meal705.0161bbab8bfa6dd5f397.jpeg",
+    "static/media/meal405.jpeg": "/streets-and-spices/static/media/meal405.98b864e986cfbace785f.jpeg",
+    "static/media/meal302.jpeg": "/streets-and-spices/static/media/meal302.234aac13734424211166.jpeg",
+    "static/media/meal603.jpeg": "/streets-and-spices/static/media/meal603.a2e0c51d2e5ac030991c.jpeg",
+    "static/media/meal604.jpeg": "/streets-and-spices/static/media/meal604.e711505bf6fc0c98d720.jpeg",
+    "static/media/meal102.jpeg": "/streets-and-spices/static/media/meal102.38b8b53f1ac3021c3d82.jpeg",
+    "static/media/meal204.jpeg": "/streets-and-spices/static/media/meal204.fe30d5309338c0603f0a.jpeg",
+    "static/media/meal601.jpeg": "/streets-and-spices/static/media/meal601.a5460ce50f41e408d2fd.jpeg",
+    "static/media/meal501.jpeg": "/streets-and-spices/static/media/meal501.37658bc87b2964284b50.jpeg",
+    "static/media/meal301.jpeg": "/streets-and-spices/static/media/meal301.166aa5f9305d517523c8.jpeg",
+    "static/media/meal502.jpeg": "/streets-and-spices/static/media/meal502.6faeae53629e431187a4.jpeg",
+    "static/media/meal701.jpeg": "/streets-and-spices/static/media/meal701.badc63f75f74d6465a93.jpeg",
+    "static/media/meal503.jpeg": "/streets-and-spices/static/media/meal503.aeb9090edabc826c21cd.jpeg",
+    "static/media/meal402.jpeg": "/streets-and-spices/static/media/meal402.8e58139730c3f8306f12.jpeg",
+    "static/media/meal401.jpeg": "/streets-and-spices/static/media/meal401.01f775a194763212ad5c.jpeg",
     "index.html": "/streets-and-spices/index.html",
-    "main.2125e894.css.map": "/streets-and-spices/static/css/main.2125e894.css.map",
-    "main.88ec604f.js.map": "/streets-and-spices/static/js/main.88ec604f.js.map"
+    "main.dda416f2.css.map": "/streets-and-spices/static/css/main.dda416f2.css.map",
+    "main.0fc06e25.js.map": "/streets-and-spices/static/js/main.0fc06e25.js.map"
   },
   "entrypoints": [
-    "static/css/main.2125e894.css",
-    "static/js/main.88ec604f.js"
+    "static/css/main.dda416f2.css",
+    "static/js/main.0fc06e25.js"
   ]
 }
