@@ -7,3 +7,16 @@
     border-radius: 10px;
     margin-bottom: 10vh;
 }
+.meals-list{
+    display: flex;
+    flex-flow: row wrap;
+}
+.choose{
+    font-size: 3rem;
+    text-align: center;
+    color: #49111c;
+    padding: 3vh auto;
+    margin: 3vh;    
+    border-bottom: 3px dashed #49111c;
+
+}

@@ -7,6 +7,7 @@ let AvailableMeals = (props) => {
 
     return(
         <div className={styles.available}>
+        <h2 className={styles.choose}>Choose your favorite</h2>
         <ul className={styles['meals-list']}>
             {MealsList.map((Mitem)=>{
                 return(

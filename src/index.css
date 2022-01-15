@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* border: 1px solid red; */
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 body,html{
   background-color: #e2dad4;

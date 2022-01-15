@@ -2,38 +2,55 @@
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    flex-flow: column nowrap;
     align-items: center;
-    border-bottom: 1px solid gray;
-    margin: 10px auto;
-    width: 90%;
+    border: 1px solid rgb(240, 235, 235);
+    margin: 3vh auto;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    box-shadow: rgb(36, 33, 33) 0px 0px 3px 5px;
+    border-radius: 10px;
+    background-color: rgb(238, 233, 230);
+
+}
+.meal-img{
+    height: 70%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+}
+.over{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .Mitem{
-    width: 80%;
+    width: 90%;
+    height: 30%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    margin: 3vw;
+    margin:5px;
     text-align: justify;
 }
 .meal-name{
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-variant: small-caps;
-    letter-spacing: .5px;
     margin-bottom: 2px;
 }
 .meal-des{
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 2px;
 }
-.meal-cost{
-    font-size: 1.3rem;
-    color: #302415;
-    font-weight: bold;
+
+.btn-custom{
+    width: 70%;
+    margin: 0;
+    height: 35px;
 }
 @media all and (max-width:700px){
     .Mitem{

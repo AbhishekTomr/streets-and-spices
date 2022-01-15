@@ -1,7 +1,7 @@
-import { Fragment,useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import Input from '../Input/Input.js';
 import Button from '../Button/Button.js';
-//import styles from './AddToCartButton.module.css';
+import styles from './AddToCartButton.module.css';
 
 let AddToCartButton = (props) => {
     let txt = '+ Add';
@@ -18,10 +18,11 @@ let AddToCartButton = (props) => {
         props.addItem(numOf);
     }
     return(
-        <Fragment>
+        <div className={styles['addtocart-wrap']}>
+        <span className={styles['meal-cost']}>{props.Mitem.cost} &#8377;</span>
         <Input data = { {type:'number', min:'0', max: '5', placeholder:'0',value:inpVal,onChange :changeVal}} ref={inRef} />
-        <Button data = {{type:'button', onClick: addToCart}}>{txt}</Button>
-        </Fragment>
+        <Button data = {{type:'button', onClick: addToCart}} className={props.className}>{txt}</Button>
+        </div>
         )    
 }
 
