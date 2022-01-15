@@ -48,20 +48,26 @@
 }
 
 @media all and (max-width:400px){
-    .summary1{
-        width: 95vw;
-        right: 2.5vw;
+    .summary{
+        width: 99vw;
+        right: .5vw;
+        top: 10vh;
     }
 
 }
 
 @media all and (max-width:700px){
+    .summary1{
+        width: 99vw;
+        left: .5vw;
+        top: 30vh;
+    }
     .head{
-        font-size: 2.1rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     .p1,.p2{
-        font-size: 1rem;
+        font-size: .8rem;
         border-bottom: 1px solid whitesmoke;
         padding-bottom: 5px;
     }
