@@ -5,7 +5,7 @@ import styles from './AddToCartButton.module.css';
 
 let AddToCartButton = (props) => {
     let txt = '+ Add';
-    let [inpVal,changeInpVal] = useState();
+    let [inpVal,changeInpVal] = useState(0);
     let changeVal = (event) => {changeInpVal(event.target.value)}
     let inRef = useRef();
     let addToCart = ()=>{

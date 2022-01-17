@@ -8,4 +8,5 @@
     align-items: flex-start;
     position: fixed;
     top: 0;
+    overflow: auto;
 }

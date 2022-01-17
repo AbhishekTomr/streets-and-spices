@@ -6,6 +6,7 @@ let defaultCartState = {
     totalAmt : 0
 }
 let cartReducer = (currentState,action) =>{
+    console.log(currentState);
     if(action.type==='addItem')
     {
         let itemPresent = currentState.item.findIndex(function(item){
@@ -16,7 +17,7 @@ let cartReducer = (currentState,action) =>{
         })
         let updatedCartItems;
         let updatedTotalAmt = parseInt(currentState.totalAmt) + (parseInt(action.item.cost)*parseInt(action.item.numOf)); 
-        if( currentState.item[itemPresent])
+        if(itemPresent!==-1)
         {
             let currentItem = {...currentState.item[itemPresent], numOf: currentState.item[itemPresent].numOf+action.item.numOf}
             updatedCartItems = [...currentState.item];

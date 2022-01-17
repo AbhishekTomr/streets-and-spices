@@ -12,7 +12,7 @@
 }
 @media all and (max-width:700px){
     .input-num{
-        width: 30px;
+        width: auto;
         height: 25px;
     }
 }
