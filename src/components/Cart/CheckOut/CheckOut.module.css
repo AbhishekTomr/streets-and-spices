@@ -72,7 +72,9 @@ select{
 }
 .btn button{
     width: auto;
-    padding: 5px;
+    padding: 10px;
+    height: 50px;
+    
 }
 .phoneCode{
     width: 100px;

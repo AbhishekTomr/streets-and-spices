@@ -318,7 +318,7 @@ let CheckOut = (props)=>{
         </div>
         <div className={styles.btn}>
         <Button data={{type:'button', onClick:props.onClick}}>Back</Button>
-        <Button data={{type:'submit', onClick: checkFormValidity}}>Make Payment</Button>
+        <Button data={{type:'submit', onClick: checkFormValidity}}>Pay {props.total} &#8377;</Button>
         </div>
         </form>
     )

@@ -14,7 +14,7 @@ let Cart = (props) => {
     let items = ctx.item;
 
      if(checkout){
-         return(<CheckOut onClick={changeCheckOutCart}></CheckOut>);
+         return(<CheckOut total={ctx.totalAmt} onClick={changeCheckOutCart}></CheckOut>);
      }
 
     return(
