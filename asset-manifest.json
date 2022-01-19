@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/streets-and-spices/static/css/main.e583d4f1.css",
-    "main.js": "/streets-and-spices/static/js/main.c31c6531.js",
+    "main.js": "/streets-and-spices/static/js/main.75a7a3ac.js",
     "static/media/meals.jpg": "/streets-and-spices/static/media/meals.fe34e5a40b785ce94815.jpg",
     "static/media/meal403.jpeg": "/streets-and-spices/static/media/meal403.e2e24266b329dc64de9d.jpeg",
     "static/media/meal105.jpeg": "/streets-and-spices/static/media/meal105.8465f799aba7102c009a.jpeg",
@@ -33,10 +33,10 @@
     "static/media/meal401.jpeg": "/streets-and-spices/static/media/meal401.a1994fd83d70b3b31500.jpeg",
     "index.html": "/streets-and-spices/index.html",
     "main.e583d4f1.css.map": "/streets-and-spices/static/css/main.e583d4f1.css.map",
-    "main.c31c6531.js.map": "/streets-and-spices/static/js/main.c31c6531.js.map"
+    "main.75a7a3ac.js.map": "/streets-and-spices/static/js/main.75a7a3ac.js.map"
   },
   "entrypoints": [
     "static/css/main.e583d4f1.css",
-    "static/js/main.c31c6531.js"
+    "static/js/main.75a7a3ac.js"
   ]
 }
