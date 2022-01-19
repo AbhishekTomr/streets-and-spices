@@ -40,7 +40,7 @@ let CheckOut = (props)=>{
             };
             try{
                 let req = await fetch("https://api.countrystatecity.in/v1/countries", requestOptions);
-                if(req.status===401)
+                if(req.status!==200)
                 {
                     throw new Error("connection not success");
                 }
@@ -72,7 +72,7 @@ let CheckOut = (props)=>{
                 };
                 try{
                     let req = await fetch(`https://api.countrystatecity.in/v1/countries/${countryuuid}/states`, requestOptions);
-                    if(req.status===401)
+                    if(req.status!==200)
                     {
                         throw new Error("connection not success");
                     }
@@ -83,6 +83,12 @@ let CheckOut = (props)=>{
                 }
                 catch(error){
                     console.log(error.message);
+                    changeStateList([{id:null,
+                        iso:null,
+                        name:'N.A'}]);
+                    changeCityList([{id:null,
+                        iso:null,
+                        name:'N.A'}]);
                 }
             },[]); 
             let getCity = useCallback(
@@ -111,11 +117,18 @@ let CheckOut = (props)=>{
                             throw new Error("connection not success");
                         }
                         let cityData = await req.json();
+                        if(cityData.length===0)
+                        {
+                            throw new Error("No Data Found");   
+                        }
                         changeCityList(cityData);
                         
                     }
                     catch(error){
                         console.log(error.message);
+                        changeCityList([{id:null,
+                        iso:null,
+                        name:'N.A'}]);
                     }
                 },[]); 
 
@@ -307,7 +320,7 @@ let CheckOut = (props)=>{
         <select className={styles.input1} id='city' name='city'>
         {cityList.length?cityList.map((item)=>{
             return(<option key={item.id} id={item.id} value={item.name}>{item.name}</option>)
-        }):''}</select>
+        }):<option>Select One</option>}</select>
         </div>
         <div className={styles.feild}>
         <label className={styles.label1} htmlFor='pin'>Pin Code</label>
