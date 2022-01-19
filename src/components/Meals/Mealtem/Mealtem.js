@@ -9,7 +9,6 @@ let MealItem = (props)=>{
     let addItem = (data) => {
         let item = Mitem;
         item.numOf = data;
-        console.log(item);
         ctx.addItem(item);
     }
     return(

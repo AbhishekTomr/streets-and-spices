@@ -26,26 +26,39 @@
     margin-bottom: 10px;
     margin-right: 10px;
 }
-.feild{
-    width: 50%;
+.feild,.feildpno{
+    width: 60%;
     font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     flex-flow: column nowrap;
     margin: 10px 0;
 }
+.feildpno{
+    width: 60%;
+}
+.phonefeild{
+    display: flex;
+    flex-flow: row nowrap;
+    width: auto;
+    justify-content: space-between;
+    width: auto;
+}
+.phonefeild input{
+    margin-left: 10px;
+}
 input,select{
     height: 35px;
     width: 90%;
     border-radius: 3px;
     font-size: 1.5rem;
-    /* outline: #a9927d30; */
     padding: 5px;
     font-weight: 500;
 }
 select{
-    /* border: 2px solid black; */
     right: 10px;
+    font-size: 1rem;
+    border: 2px solid black;
 }
 .names{
     display: flex;
@@ -60,6 +73,21 @@ select{
 .btn button{
     width: auto;
     padding: 5px;
+}
+.phoneCode{
+    width: 100px;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.error{
+    color: red;
+    font-size: .7rem;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.wrongInp:focus{
+    border: 1px solid red;
 }
 
 @media all and (max-width:700px) {
@@ -81,5 +109,19 @@ select{
         width: auto;
         padding: 5px;
         height: 40px;
+    }
+    .feildpno{
+        display: flex;
+        width: 100%;
+
+    }
+    .phonefeild input{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .phonefeild{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
     }
 }

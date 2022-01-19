@@ -6,7 +6,6 @@ let defaultCartState = {
     totalAmt : 0
 }
 let cartReducer = (currentState,action) =>{
-    console.log(currentState);
     if(action.type==='addItem')
     {
         let itemPresent = currentState.item.findIndex(function(item){
